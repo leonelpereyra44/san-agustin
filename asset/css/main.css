@@ -169,6 +169,34 @@ main article div h3{
     width: 50%;
 }
 
+.galeria-insectos{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+    align-items: center;
+}
+
+.galeria-img-uno{
+    grid-column: 1;
+    grid-row: 1/2;
+}
+.galeria-img-dos{
+    grid-column: 2;
+    grid-row: 1;
+}
+.galeria-img-tres{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+.galeria-img-cuatro{
+    grid-column:3;
+    grid-row: 1;
+}
+.galeria-img-cinco{
+    grid-column: 3;
+    grid-row: 2;
+}
+
 /* ----- FAQ ----- */
 
 .faq{
@@ -439,6 +467,33 @@ footer{
         margin-bottom: 1em;
     }
 
+    .galeria-insectos{
+        grid-template-columns:1fr;
+        grid-template-rows:repeat(5, 1fr);
+        padding: 1em;
+    }
+    
+    .galeria-img-uno{
+        grid-column: 1;
+        grid-row:1;
+    }
+    .galeria-img-dos{
+        grid-column:1;
+        grid-row:2;
+    }
+    .galeria-img-tres{
+        grid-column:1;
+        grid-row:3;
+    }
+    .galeria-img-cuatro{
+        grid-column:1;
+        grid-row:4;
+    }
+    .galeria-img-cinco{
+        grid-column: 1;
+        grid-row:5;
+    }
+
     /* ----- FAQ ----- */
 
     .faq{
@@ -652,6 +707,33 @@ footer{
         width: 80%;
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+
+    .galeria-insectos{
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows:repeat(3, 1fr);
+        padding: 1em;
+    }
+    
+    .galeria-img-uno{
+        grid-column: 1;
+        grid-row:1/2;
+    }
+    .galeria-img-dos{
+        grid-column:2;
+        grid-row:1/2;
+    }
+    .galeria-img-tres{
+        grid-column:1;
+        grid-row:2/3;
+    }
+    .galeria-img-cuatro{
+        grid-column:2;
+        grid-row:2;
+    }
+    .galeria-img-cinco{
+        grid-column:1/2;
+        grid-row:3;
     }
 
     /* ----- FAQ ----- */
