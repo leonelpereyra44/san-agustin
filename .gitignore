@@ -1,2 +1,4 @@
-/asset/node_modules
-/asset/scss
+asset/node_modules
+asset/scss
+asset/package-lock.json
+asset/package.json
