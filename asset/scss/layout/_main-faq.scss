@@ -1,0 +1,33 @@
+.faq{
+    width:80%;
+    padding:2em;
+    border: 1px solid;
+    align-self: center;
+    box-sizing: border-box;
+    article {
+        .faq-titulo{
+            text-align: center;
+        }
+        section{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            padding:2em;
+            h2,p{
+                padding:0.5em;
+            }
+            .metodos_pago{
+                text-align: center;
+            }
+            .contenedor-metodospago{
+                display: flex;
+                flex-direction:row;
+                justify-content:space-evenly;
+                width:20em;
+            }
+        }
+    }
+    
+}
+
+
